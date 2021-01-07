@@ -40,7 +40,7 @@ section {
   align-items: center;
   flex-direction: column;
 }
-
+/* All Headers */
 h1 {
   font-family: Dancing Script;
   font-size: 100px;
@@ -51,6 +51,13 @@ h2 {
   color: var(--on-background-alt);
   font-size: 32px;
   font-weight: normal;
+}
+
+h3 {
+  color: var(--on-background-alt);
+  font-size: 32px;
+  font-weight: normal;
+  font-family: Dancing Script;
 }
 
 /* Navigation */
@@ -101,15 +108,27 @@ a:focus {
   box-shadow: var(--box-shadow);
   font-family: Dancing Script;
 }
-
-img {
-  height: 300px;
-  width: 300px;
+/* Modal styling within the project section */
+.modal-header,
+.modal-body,
+.modal-footer {
+  width: 100%;
+  border: 1px solid var(--secondary-color);
+  background: var(--background);
+  color: var(--on-primary);
+  padding: 30px;
 }
+.modal-footer {
+  justify-content: space-around;
+  font-size: 26px;
+}
+/* exit btn for Modal */
+
 .tools-list {
   display: contents;
   font-family: roboto;
   list-style: none;
+  color: var(--on-background-alt);
 }
 
 /* About Section */
