@@ -153,6 +153,7 @@ button {
   border: 2px solid var(--primary-color);
   font-size: 15px;
   outline: none;
+  font-family: roboto;
 }
 
 button:hover:not(.outline) {
@@ -203,6 +204,10 @@ p {
 }
 
 /* Contact Section */
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
 .fab {
   display: flex;
   font-size: 100px;
