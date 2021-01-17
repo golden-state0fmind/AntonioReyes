@@ -58,7 +58,7 @@ h3 {
   color: var(--on-background-alt);
   font-size: 32px;
   font-weight: normal;
-  font-family: fantasy;
+  font-family: roboto;
 }
 
 /* Navigation */
@@ -104,7 +104,7 @@ a:focus {
   border-radius: 10px;
   padding: 10px 20px;
   margin: 20px;
-  width: auto;
+  max-width: 1000px;
   background: var(--background);
   box-shadow: var(--box-shadow);
   font-family: fantasy;
@@ -125,6 +125,10 @@ a:focus {
 }
 
 /* exit btn for Modal */
+.btn-close {
+  background-color: var(--on-background-alt);
+  width: 100px;
+}
 .tools-list {
   display: contents;
   font-family: roboto;
@@ -150,7 +154,9 @@ button {
   cursor: pointer;
   border-radius: 10px;
   margin-right: 10px;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  background-color: var(--on-background);
+  color: var(--background);
   font-size: 15px;
   outline: none;
   font-family: roboto;
