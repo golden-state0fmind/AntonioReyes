@@ -15,21 +15,28 @@
 <body>
     <!--Dark Mode-->
     <div class="theme-switch-wrapper">
-        <span id="toggle-icon">
-            <span class="toggle-text">Light Mode</span>
-            <i class="fas fa-sun"></i>
-        </span>
         <label class="theme-switch">
             <input type="checkbox">
             <div class="slider round"></div>
         </label>
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <div class="social-icons">
+            <a href="mailto:areyes2009@yahoo.com" class="fab fa-telegram-plane"></a>
+            <a href="https://github.com/golden-state0fmind" class="fab fa-github" target="_blank"
+                rel="noopener noreferrer"></a>
+            <a href="https://www.linkedin.com/in/antonio-reyes-332a0494/" class="fab fa-linkedin" target="_blank"
+                rel="noopener noreferrer"></a>
+            <a href="https://twitter.com/dev_mindsetAR" class="fab fa-twitter" target="_blank"
+                rel="noopener noreferrer"></a>
+        </div>
     </div>
     <!--Navigation-->
     <nav id="nav">
         <a href="#home">HOME</a>
         <a href="#projects">PROJECTS</a>
-        <a href="#about">SKILLS</a>
-        <a href="#contact">CONTACT</a>
     </nav>
     <!--Home Section-->
     <section id='home'>
@@ -38,8 +45,8 @@
             <h2>Software Engineer</h2>
         </div>
         <div class="text-box" id="text-box">
-            <p>I am a Software Engineer with skills for writing scalable solutions in the P.E.R.N stack as well as
-                JavaScript and Python. Strong drive to confront intimidating or complex problems that can arise in front
+            <p>I am a Software Engineer with skills for writing scalable solutions in the PERN stack as well as
+                Javascript and Python. Strong drive to confront intimidating or complex problems that can arise in front
                 and back-end
                 programming hoisted by a belief that with a positive attitude and understanding, no problem is
                 greater than a person or team willing to come together and solve it. Pivoting from a background in
@@ -47,13 +54,32 @@
                 of
                 writing more complex applications and tools to make people's lives easier and more leisurely,
                 because I believe great software can change the world.</p>
-            <h4><a href="https://docs.google.com/document/d/1Q9W9Gb5MN8e906fy4GqodNxREcEZQsqJKw278KKGJPY/edit?usp=sharing"
+            <!-- <h4><a href="https://docs.google.com/document/d/1Q9W9Gb5MN8e906fy4GqodNxREcEZQsqJKw278KKGJPY/edit?usp=sharing"
                     target="_blank" rel="noopener noreferrer">Resume</a>
-            </h4>
+            </h4> -->
             <div class="icontainer">
                 <iframe
-                    src="https://s3.amazonaws.com/www.vettery.com/resumes/stamped/248042.pdf?AWSAccessKeyId=AKIAJPZNNFGZN3RVTKGA&Expires=1611302260&Signature=g9jumX9J4B8GcXdQ076hz5VwCzM%3D"
+                    src="https://s3.amazonaws.com/www.vettery.com/resumes/stamped/248042.pdf?AWSAccessKeyId=AKIAJPZNNFGZN3RVTKGA&Expires=1611556722&Signature=va0OVHsC1pmIswjviLMibD2%2FTHY%3D"
                     frameborder="1">Resume</iframe>
+            </div></br>
+            <div class="container-skills">
+                <h4>Technical Skills</h4>
+                <ul class="tech-skills">
+                    <li><button class="secondary outline">Javascript</button></li>
+                    <li><button class="secondary outline">HTML</button></li>
+                    <li><button class="secondary outline">CSS</button></li>
+                    <li><button class="secondary outline">Bootstrap</button></li>
+                    <li><button class="secondary outline">Python</button></li>
+                    <li><button class="secondary outline">Flask</button></li>
+                    <li><button class="secondary outline">Postgres</button></li>
+                    <li><button class="secondary outline">SQL</button></li>
+                    <li><button class="secondary outline">Sequelize</button></li>
+                    <li><button class="secondary outline">Express</button></li>
+                    <li><button class="secondary outline">React</button></li>
+                    <li><button class="secondary outline">Node.js</button></li>
+                    <li><button class="secondary outline">NPM</button></li>
+                    <li><button class="secondary outline">Microsoft Azure</button></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -61,6 +87,59 @@
     <section id="projects">
         <h1>Projects</h1>
         <div class="project-container">
+            <!-- PetPals Project Info -->
+            <div class="image-container">
+                <a href="https://petpals.azurewebsites.net/" target="_blank" rel="noopener noreferrer">
+                    <h2>Pet Pals</h2>
+                </a>
+                <p>Pet Pals is a full stack PERN(PostgreSQL,Express,React,Node.js) app designed with the intent to join
+                    pet owners to a
+                    community where they can socialize via posts, photos, and comments. (Collaboration with 2 others)
+                </p></br>
+                <img class="ppimage" src="images/browser-pp-profile.png" alt="">
+                <img class="ppimage" src="images/mobile-pp-notifications.png" alt="">
+                <ul class="tools-list">
+                    <h3>Technologies</h3>
+                    <li>Javascript</li>
+                    <li>Postgres(SQL)/Sequelize</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Axios/Cloudinary</li>
+                    <li>Microsoft Azure</li>
+                </ul>
+                <a href="https://petpals.azurewebsites.net/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/golden-state0fmind/PetPals-Front-End" target="_blank"
+                    rel="noopener noreferrer">GitHub Repo</a>
+            </div>
+            <!-- 404AnswersNotFound Project Info -->
+            <div class="image-container">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <h2>404AnswersNotFound</h2>
+                </a>
+                <p>404AnswersNotFound is an app built in Express, Node.js, Postgres(SQL)/Sequelize, and Javascript.
+                    Intended for
+                    users to inquire tech questions and answers within a community. (Collaboration with 2 others)
+                </p></br>
+                <img class="ppimage" src="images/404answers.png" alt="">
+                <ul class="tools-list">
+                    <h3>Technologies</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Postgres(SQL)/Sequelize</li>
+                    <li>Express</li>
+                    <li>EJS</li>
+                    <li>Node.js</li>
+                    <li>Bootstrap</li>
+                    <li></li>
+                </ul>
+                <!-- <a href="" target="_blank" rel="noopener noreferrer">Live Demo</a> -->
+                <a href="https://github.com/golden-state0fmind/404AnswerNotFound" target="_blank"
+                    rel="noopener noreferrer">GitHub Repo</a>
+            </div>
             <!-- BattleShip Project Info -->
             <div class="image-container">
                 <a href="https://golden-state0fmind.github.io/BattleShipProject/" target="_blank"
@@ -71,151 +150,30 @@
                     play against my CPU.
                     (Independent)
                 </p> </br>
-                <!-- Button trigger modal -->
-                <button type="button" id="toggle-icon" data-bs-toggle="modal" data-bs-target="#staticBattleShip">
-                    Learn More
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="staticBattleShip" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title" id="staticBackdropLabel">BattleShip</h2>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img class="ppimage" src="images/battleShipBoard.png" alt="">
-                                <ul class="tools-list">
-                                    <h3>Tools:</h3>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="https://golden-state0fmind.github.io/BattleShipProject/" target="_blank"
-                                    rel="noopener noreferrer">Live Demo</a>
-                                <a href="https://github.com/golden-state0fmind/BattleShipProject" target="_blank"
-                                    rel="noopener noreferrer">GitHub Repo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- PetPals Project Info -->
-            <div class="image-container">
-                <a href="https://petpals.azurewebsites.net/" target="_blank" rel="noopener noreferrer">
-                    <h2>Pet Pals</h2>
-                </a>
-                <p>Pet Pals is a full stack (p.e.r.n.) app designed with the intent to join pet owners to a
-                    community where they can socialize via posts, photos, and comments. (Collaboration with 2 others)
-                </p></br>
-                <!-- Button trigger modal -->
-                <button type="button" id="toggle-icon" data-bs-toggle="modal" data-bs-target="#staticPetPals">
-                    Learn More
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="staticPetPals" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title" id="staticBackdropLabel">Pet Pals</h2>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img class="ppimage" src="images/browser-pp-profile.png" alt="">
-                                <img class="ppimage" src="images/mobile-pp-notifications.png" alt="">
-                                <ul class="tools-list">
-                                    <h3>Tools:</h3>
-                                    <li>JavaScript</li>
-                                    <li>PostgreSQL</li>
-                                    <li>Express</li>
-                                    <li>React</li>
-                                    <li>Node.js</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Cloudinary</li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="https://petpals.azurewebsites.net/" target="_blank"
-                                    rel="noopener noreferrer">Live Demo</a>
-                                <a href="https://github.com/golden-state0fmind/PetPals-Front-End" target="_blank"
-                                    rel="noopener noreferrer">GitHub Repo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="image-container">
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <h2>404AnswersNotFound</h2>
-                </a>
-                <p>404AnswersNotFound is an app built in Express, Node.js, PostgreSQL, and JavaScript. Intended for
-                    users to inquire tech questions and answers within a community. (Collaboration with 2 others)
-                </p></br>
-                <!-- Button trigger modal -->
-                <button type="button" id="toggle-icon" data-bs-toggle="modal" data-bs-target="#static404answers">
-                    Learn More
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="static404answers" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title" id="staticBackdropLabel">404AnswersNotFound</h2>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img class="ppimage" src="images/404answers.png" alt="">
-                                <ul class="tools-list">
-                                    <h3>Tools:</h3>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>PostgreSQL</li>
-                                    <li>Express</li>
-                                    <li>EJS</li>
-                                    <li>Node.js</li>
-                                    <li>Bootstrap</li>
-                                    <li></li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <!-- <a href="" target="_blank" rel="noopener noreferrer">Live Demo</a> -->
-                                <a href="https://github.com/golden-state0fmind/404AnswerNotFound" target="_blank"
-                                    rel="noopener noreferrer">GitHub Repo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img class="ppimage" src="images/battleShipBoard.png" alt="">
+                <ul class="tools-list">
+                    <h3>Technologies</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <a href="https://golden-state0fmind.github.io/BattleShipProject/" target="_blank"
+                    rel="noopener noreferrer">Live Demo</a>
+                <a href="https://github.com/golden-state0fmind/BattleShipProject" target="_blank"
+                    rel="noopener noreferrer">GitHub Repo</a>
             </div>
         </div>
     </section>
-    <!--about section-->
+    <!-- about section
     <section id="about">
         <h1>Skills</h1>
         <div class="container">
             <div class="buttons">
-                <button class="secondary outline">PostgreSQL</button>
-                <button class="secondary outline">Express</button>
-                <button class="secondary outline">React</button>
-                <button class="secondary outline">Node.js</button>
-                <button class="secondary outline">JavaScript</button>
-                <button class="secondary outline">Python</button>
-                <button class="secondary outline">Flask</button>
-                <button class="secondary outline">HTML</button>
-                <button class="secondary outline">CSS</button>
-                <button class="secondary outline">Bootstrap</button>
-                <button class="secondary outline">Azure</button>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--contacts section-->
-    <section id="contact">
+    <!-- <section id="contact">
         <div class="social-icons">
             <a href="mailto:areyes2009@yahoo.com" class="fab fa-telegram-plane"></a>
             <a href="https://github.com/golden-state0fmind" class="fab fa-github" target="_blank"
@@ -224,9 +182,8 @@
                 rel="noopener noreferrer"></a>
             <a href="https://twitter.com/dev_mindsetAR" class="fab fa-twitter" target="_blank"
                 rel="noopener noreferrer"></a>
-
         </div>
-    </section>
+    </section> -->
     <!-- Script -->
     <!-- JavaScript Bundle with Popper -->
     <script src="script.js"></script>
