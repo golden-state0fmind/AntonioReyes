@@ -59,6 +59,8 @@ h2 {
 }
 
 h3 {
+  display: flex;
+  justify-content: center;
   color: var(--on-background-alt);
   font-size: 32px;
   font-weight: normal;
@@ -213,6 +215,11 @@ iframe {
   font-family: roboto;
   list-style: none;
   color: var(--on-background-alt);
+}
+.answer404 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 /* Contact Section */
