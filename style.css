@@ -5,7 +5,7 @@
   --secondary-color: #0182b3;
   --on-primary: rgb(250, 250, 250);
   --on-background: rgb(66, 66, 66);
-  --on-background-alt: rgba(66, 66, 66, 0.7);
+  --on-background-alt: rgba(66, 66, 66, 0.6);
   --background: rgb(255, 255, 255);
   --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
 }
@@ -15,7 +15,7 @@
   /* --primary-variant: #6c63ff; */
   --secondary-color: #f98edc;
   --on-primary: #000;
-  --on-background: rgba(255, 255, 255, 0.9);
+  --on-background: rgba(255, 255, 255, 0.7);
   --on-background-alt: rgba(255, 255, 255, 0.7);
   --background-projects: #121212;
   --background: #000;
@@ -82,7 +82,12 @@ nav {
   width: 100vw;
   background: rgb(255 255 255 / 50%);
 }
-
+.bg-navBar {
+  background: transparent;
+}
+.navbar-toggler {
+  background-color: var(--primary-color);
+}
 a {
   margin-right: 25px;
   color: var(--primary-color);
@@ -279,7 +284,7 @@ iframe {
 }
 
 .slider {
-  background: #ccc;
+  background: var(--primary-color);
   bottom: 0;
   cursor: pointer;
   left: 0;
