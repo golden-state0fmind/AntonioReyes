@@ -17,14 +17,17 @@ I wanted a clean user friendly website to host all my projects for friends and f
 
 Desktop version
 
-![Light Mode](images/lightMode.png)
-![Dark Mode](images/darkMode.png)
+![Light Mode](images/topPage.png)
+
+Dark Mode Skills SVG images
+
+![Dark Mode](images/skillsSVG.png)
 
 Mobile version
 
-![Light Mode](images/lightmobile.png)
-![Dark Mode](images/darkmobile.png)
+![Light Mode](images/virtualGBImage.jpeg)
+![Dark Mode](images/DarkModeMobileVersion.jpeg)
 
 #### Unresolved issues
 
-The social media icons need to be in a row vs column in the contact section. The nav bar does not fit the top of the page once in mobile version for the contact section because of the icons being in a column.
+working in a parallax however not compatible with some browsers seeking alternative solution for design
