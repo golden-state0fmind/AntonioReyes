@@ -86,7 +86,13 @@ nav {
   background: transparent;
 }
 .navbar-toggler {
+  width: 2%;
+  height: 2%;
+  border-radius: 14px;
   background-color: var(--primary-color);
+}
+.navbar-dark .navbar-toggler {
+  color: var(--on-primary);
 }
 a {
   margin-right: 25px;
