@@ -113,11 +113,6 @@ a:focus {
 .title-group {
   text-align: center;
 }
-/* styles buttons for the skills */
-/* .primary {
-  background: var(--primary-color);
-  color: var(--on-primary);
-} */
 button {
   min-width: 100px;
   height: 40px;
