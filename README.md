@@ -1,6 +1,6 @@
 # Portfolio
 
-I am Antonio Reyes a Software Engineer with a passion for tech interested in learning more about tech and growing into more complex applications.
+I am Antonio Reyes a Software Engineer with a passion for learning more about software engineering. As an avid learner I look forward to building more complex features and applications.
 
 ## Technologies used
 
@@ -11,23 +11,19 @@ BootStrap
 
 ## Approach
 
-I wanted a clean user friendly website to host all my projects for friends and family to enjoy. Using vanilla JavaScript and some bootstrap I am inspired using the dark mode feature on the top right corner to help viewers see content thats easier on the eyes.
+I wanted a sleek user friendly website to host all my projects for everyone to enjoy. Using
+JavaScript, HTML, CSS and Bootstrap for a linear gradient effect in the background this website is responsive to fit all devices.
 
 ##### Screenshot(s)
 
 Desktop version
 
-![Light Mode](images/topPage.png)
+![Desktop Hero Image](assets/img/desktopHeader.png)
 
-Dark Mode Skills SVG images
-
-![Dark Mode](images/skillsSVG.png)
+![Desktop About Section](assets/img/desktopAboutSection.png)
 
 Mobile version
 
-![Light Mode](images/virtualGBImage.jpeg)
-![Dark Mode](images/DarkModeMobileVersion.jpeg)
+![Mobile Project Section](assets/img/mobileProjectSection.png)
 
-#### Unresolved issues
-
-working in a parallax however not compatible with some browsers seeking alternative solution for design
+![Mobile Contact Section](assets/img/mobileContactSection.png)
