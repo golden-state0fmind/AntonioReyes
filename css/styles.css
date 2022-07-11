@@ -85,6 +85,9 @@ h1,
   .h1 {
     font-size: 2.5rem;
   }
+  #kwb-image{
+    margin-left: 12rem;
+  }
 }
 
 h2,
@@ -6458,6 +6461,9 @@ body {
     border-color: #057218;
     border-width: 0.25rem;
     width: 30%;
+  }
+  #kwb-image{
+    margin-left: 7rem;
   }
 }
 
