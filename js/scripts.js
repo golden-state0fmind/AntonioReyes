@@ -1,5 +1,9 @@
 window.addEventListener('DOMContentLoaded', event => {
-
+    const reApp = document.querySelector('.re-app');
+    const message = 'This project is private \n Please see the developer for more questions.';
+    reApp.addEventListener('click', () => {
+        alert(message);
+    });
     // Navbar shrink function
     const navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
@@ -14,10 +18,8 @@ window.addEventListener('DOMContentLoaded', event => {
     };
     // Shrink the navbar 
     navbarShrink();
-
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
-
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
